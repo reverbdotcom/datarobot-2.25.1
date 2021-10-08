@@ -50,4 +50,5 @@ setuptools.setup(
         'release': [
             "zest.releaser[recommended]==6.22.0"
         ]
+    }
 )
