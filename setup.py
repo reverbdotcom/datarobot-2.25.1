@@ -6,7 +6,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     require_packages=[
         "contextlib2>=0.5.5"
-        "p;as<1.3.1,>=0.15"
+        "pandas<1.3.1,>=0.15"
         "pyyaml>=3.11"
         "requests>=2.21"
         "requests-toolbelt>=0.6"
