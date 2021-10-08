@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='datarobot',
-    verison='2.25.1',
+    version='2.25.1',
     packages=setuptools.find_packages(),
     install_requires=[
         "contextlib2>=0.5.5"
