@@ -4,7 +4,7 @@ setuptools.setup(
     name='datarobot',
     verison='2.25.1',
     packages=setuptools.find_packages(),
-    require_packages=[
+    install_requires=[
         "contextlib2>=0.5.5"
         "pandas<1.3.1,>=0.15"
         "pyyaml>=3.11"
@@ -14,7 +14,7 @@ setuptools.setup(
         "urllib3>=1.23"
         "attrs<21.0,>=19.1.0"
     ],
-    extra_packages={
+    extras_require={
         'dev': [
             "mock==3.0.5"
             "pytest<5,>=4.6"
