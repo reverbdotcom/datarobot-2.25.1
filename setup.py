@@ -12,7 +12,7 @@ setuptools.setup(
         "requests-toolbelt>=0.6"
         "trafaret!=1.1.0,<2.0,>=0.7"
         "urllib3>=1.23"
-        "attrs<20.0,>=19.1.0"
+        "attrs<21.0,>=19.1.0"
     ],
     extra_packages={
         'dev': [
@@ -46,9 +46,6 @@ setuptools.setup(
         'lint': [
             "black==19.10b0;python_version>='3.6'"
             "isort==5.8;python_version>='3.6'"
-        ],
-        'release': [
-            "zest.releaser[recommended]==6.22.0"
         ]
     }
 )
