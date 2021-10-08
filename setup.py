@@ -18,7 +18,7 @@ setuptools.setup(
         'dev': [
             "mock==3.0.5"
             "pytest<5,>=4.6"
-            "pytest-cov"
+            "pytest-cov==3.0.0"
             "responses<0.10,>=0.9"
             "flake8<3,>=2.5.2"
             "Sphinx==1.8.3"
@@ -26,7 +26,7 @@ setuptools.setup(
             "nbsphinx<1,>=0.2.9"
             "nbconvert==5.3.1"
             "numpydoc>=0.6.0"
-            "tox"
+            "tox==3.24.4"
             "jupyter-contrib-nbextensions"
             "tornado<6.0"
             "decorator<5;python_version=='2.7'"
